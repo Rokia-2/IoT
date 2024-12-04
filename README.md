@@ -25,12 +25,29 @@ Strong correlations observed between CO and smoke levels.
 Anomaly Detection: Anomalies in CO and smoke levels often align with potential device malfunctions.
 Predictive Modeling: A linear regression model achieved an RMSE of 0.012, accurately predicting temperature readings.
 
-📂 Repository Structure
-├── data/
-│   └── iot_telemetry_data.csv       # Raw IoT telemetry dataset
-├── Notebooks/
-│   ├── preprocess.ipynb               # Scripts for data cleaning and transformation
-│   ├── eda.ipynb                       # Exploratory data analysis scripts
-│   └── anomaly_detection.ipynb        # Scripts for anomaly detection
-├── README.md                        # This README file
-└── requirements.txt                 # Python dependencies
+🔍 How to Use
+Prerequisites:
+Python 3.8+
+Install dependencies: pip install -r requirements.txt
+
+Running the Project:
+Clone the repository: git clone https://github.com/Rokia-2/Telemetry-Trends.git
+cd Telemetry-Trends
+
+📜 Future Work
+Automating real-time anomaly detection using Spark Streaming.
+Implementing clustering to group devices by behavioral patterns.
+Expanding the dataset with new IoT sensor types for deeper insights.
+
+🤝 Contributing
+Contributions are welcome! Feel free to fork this repository and submit a pull request.
+
+🌟 Acknowledgments
+This project is inspired by the growing need for actionable insights from IoT sensor data. Special thanks to Kaggle for providing the dataset.
+
+📬 Contact
+For questions or collaborations, reach out to me:
+📧 Email: omololacoulibaly@gmail.com
+💼 LinkedIn: Rokia Coulibaly
+
+
